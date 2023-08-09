@@ -48,7 +48,7 @@ function RenderingExample() {
   };
 
   return (
-    <div className="flex flex-col items-center mt-10">
+    <div className="flex flex-col items-center mt-10 p-3">
       <header className="bg-gray-800 text-white p-5 rounded-md mb-10 text-center min-w-full shadow-sm shadow-gray-300">
         <h1>Parent holds the state and passes it to items.</h1>
         <pre className="bg-gray-600 text-white mt-5 p-2.5 rounded-md text-left">

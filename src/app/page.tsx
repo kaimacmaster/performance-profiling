@@ -1,5 +1,4 @@
 import dynamic from "next/dynamic";
-import styles from "./page.module.css";
 
 const App = dynamic(() => import("@/components/rendering-example"), {
   ssr: false,
@@ -7,7 +6,7 @@ const App = dynamic(() => import("@/components/rendering-example"), {
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main className="flex flex-col justify-between items-center p-24 min-h-screen">
       <App />
     </main>
   );
